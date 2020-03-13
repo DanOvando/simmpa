@@ -40,7 +40,7 @@ function(input,output){
         should use the underlying package `spasm` (github.com/danovndo/spasm). simMPA is not intended to design specific MPAs. 
               Local marine spatial planning exercises should carefully consider whether the limited assumptions of this model adequately represent their reality.",
               h2("How does it work?"),
-              "simMPA is built on a single-species age structured bio-economic model (SPASM) that can be found at https://github.com/DanOvando/spasm. 
+              "simMPA is built on a single-species age structured bio-economic model. 
               It simulates a closed system (picture a population and fishery surrounding an island). You setup your fishery, and then simulate the effects of an MPA on that fishery. 
               The model performs one run without MPAs, and then another with MPAs holding everything else constant. You can then compare the results to see how things like
               biomass and catches changed as a result of the MPA",
